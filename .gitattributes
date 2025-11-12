@@ -1,0 +1,6 @@
+#
+# Keep third-party template assets from skewing GitHub Linguist stats so the
+# repository highlights the Angular/TypeScript source code instead of CSS-only.
+#
+src/assets/** linguist-vendored
+dist.zip linguist-generated=true
